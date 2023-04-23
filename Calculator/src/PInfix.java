@@ -8,6 +8,7 @@ public class PInfix {
 		int j = 0;
 		while(true) {
 			System.out.println("수식을 입력해주세요. = 을 입력할 시 결과가 출력됩니다.");
+			System.out.println("숫자와 연산자 사이를 띄워주세요.");
 			String input = sc.nextLine().trim(); // 맨 앞, 맨 뒤 공백 제거
 			String[] arr_input = input.split("[ \t]+");
 			for(int i = 0; i < arr_input.length; i++) {
